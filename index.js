@@ -1,9 +1,9 @@
 //Write your code here
 
-const attendee =  {attendeID: "T001" , name:"Alice Smith ", event: "JavaScript Conference" , ticketType: "VIP", ticketPrice: 150.00}
+const attendee =  {attendeeId: "T001", name:"Alice Smith", event: "JavaScript Conference" , ticketType: "VIP", ticketPrice: 150.00}
   
 
- attendee("T001", "Alice Smith", "JavaScript Conference", "VIP", 150.00);
+ 
 
  function logAttendeeName(attendee) {
   console.log(attendee.name); 
@@ -14,7 +14,7 @@ function logTicketPrice (attendee) {
 
 }
 
-function updateTicketType (attendee) {
+function updateTicketType (attendee, newTicketType) {
   attendee.ticketType = newTicketType;
   
 }
